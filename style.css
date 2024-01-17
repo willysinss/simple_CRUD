@@ -1,0 +1,14 @@
+.row{
+    margin-top: 4vh;
+    /* border: 3px solid; */
+    padding: 3vh;
+}
+
+input{
+    border: 1px solid;
+}
+
+.home--nav--menu {
+    font-size: 1.5vw !important;
+    padding-bottom: 2.3vw !important;
+  }

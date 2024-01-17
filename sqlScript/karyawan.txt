@@ -1,0 +1,18 @@
+CREATE DATABASE IF NOT EXISTS karyawan;
+
+USE karyawan;
+
+CREATE TABLE performance(
+	nik INT(8) PRIMARY KEY,
+	foto VARCHAR(200),
+	nama VARCHAR(200),
+	status_kerja ENUM('Tetap', 'Tidak Tetap'),
+	posisi VARCHAR(10),
+	tgl_penilaian DATE,
+	responsibility DECIMAL(10,2),
+	teamwork DECIMAL(10,2),
+	management_time DECIMAL(10,2),
+	total DECIMAL(10,2),
+	grade VARCHAR(3)
+	);
+	

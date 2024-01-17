@@ -1,0 +1,108 @@
+.nav {
+    justify-content: flex-end;
+  }
+  
+  .nav .nav-link:hover {
+    color: white;
+  }
+  
+  .nav .nav-link:focus {
+    color: white;
+  }
+  
+  .home--nav--container {
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #1d3354;
+    color: white;
+  }
+  
+  .home--nav--container a {
+    color: white;
+  }
+  
+  .home--custom--nav {
+    margin-top: 1.5vw !important;
+  }
+  
+  .home--nav--brand {
+    font-size: 2vw;
+  }
+  
+  .home--nav--menu {
+    font-size: 1.5vw !important;
+  }
+  
+  .home--content--container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .home--content--left {
+    width: 80%;
+    padding: 0 1vw 0 0;
+    border-right: 1px solid #000;
+  }
+  
+  .home--content--right {
+    width: 16%;
+    padding: 0 0 0 2.5vw;
+  }
+  
+  .home--content--left span {
+    font-size: 1.3vw;
+    font-weight: 700;
+  }
+  
+  .accordion {
+    --bs-accordion-active-bg: none !important;
+    --bs-accordion-btn-focus-box-shadow: none !important;
+  }
+  
+  .home--content--right--box {
+    width: 95%;
+    background-color: #e4d9fc;
+    height: 13vw;
+    border-radius: 2em;
+    text-align: center;
+    font-weight: 600;
+    padding: 0.5vw;
+    margin-top: 0.5vw;
+    font-size: 1vw;
+  }
+  
+  .home--box--dashed--line {
+    width: 100%;
+    border: 1px dashed #000;
+  }
+  
+  .home--box--datenow {
+    margin: 0.8vw 0 0 0;
+    text-align: left;
+  }
+  
+  .home--box--info--a--a {
+    margin: 1vw 0 0 0;
+    text-align: left;
+  }
+  
+  .home--box--info--a--b {
+    text-align: left;
+  }
+  
+  .home--box--info--b {
+    margin: 0.4vw;
+    text-align: left;
+  }
+  
+  .home--box--info--c {
+    margin: 0.4vw;
+    text-align: left;
+  }
+
+  
+  
